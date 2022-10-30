@@ -1,7 +1,9 @@
 import "./app.css";
 import "./cards.css";
+import "./modal.css";
 import Navbar from "./components/Navbar.js";
 import Card from "./components/Card.js";
+import Modal from "./components/Modal.js";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Card />
         <Card />
       </div>
+
+      <Modal />
     </>
   );
 }
